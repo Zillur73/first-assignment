@@ -1,0 +1,53 @@
+/* header background image work */
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+.header
+{
+    background-image: url("../project-resource/images/banner/banner2.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+/* header banner text work */
+
+.header-text{
+    padding-top: 300px;
+    
+
+}
+/* Failure Container work */
+.failur-container{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    padding-top: 200px;
+
+}
+/* failure img work */
+.failur-img{
+ padding-left: 150px;
+}
+
+/* failure text container */
+.failur-text-container{
+    padding-right: 500px;
+}
+.failur-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.failur-description{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 25px;
+}
+li{
+    color: #444343;
+    font-size: 16px;
+}
