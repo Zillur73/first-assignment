@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Open Sans';
 }
-.header
+header
 {
     background-image: url("../project-resource/images/banner/banner2.png");
     height: 100vh;
@@ -16,8 +16,29 @@
 /* header banner text work */
 
 .header-text{
-    padding-top: 300px;
-    
+    padding: 220px 230px 350px 850px;
+    text-align: right; 
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+.header-description{
+    font-size: 16px;
+    color: #444343;
+    text-align: right;
+    padding-left: 180px;
+    margin-bottom: 30px;
+}
+
+.header-btn{
+    padding: 20px 35px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: red;
+    color: white;
 
 }
 /* Failure Container work */
@@ -115,6 +136,7 @@ footer{
     color: white;
     display: flex;
     padding: 130px 200px;
+    margin-top: 120px;
     
 }
 .footer-future-description{
@@ -153,4 +175,37 @@ footer{
   font-weight: 600;
   font-size: 20px;
   
+}
+
+/* My Information Section */
+
+.my-container{
+    display: flex;
+    align-items: center;
+    padding: 0 25%;
+    gap: 50px;
+}
+.my-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700px;
+}
+.my-name{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color:rgb(15, 15, 68);
+    font-weight: 900;
+}
+.my-designation{
+    color: rgb(121, 109, 96);
+    margin-bottom: 10px;
+}
+.my-container p{
+    font-size: 16px;
+    color: #737272;
+}
+.my-img-size{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
 }
