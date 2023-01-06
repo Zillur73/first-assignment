@@ -21,21 +21,23 @@
 
 }
 /* Failure Container work */
+section{
+    margin-top: 150px;
+}
 .failur-container{
     display: flex;
     gap: 150px;
     align-items: center;
-    padding-top: 200px;
 
 }
 /* failure img work */
 .failur-img{
- padding-left: 150px;
+ padding-left: 200px;
 }
 
 /* failure text container */
 .failur-text-container{
-    padding-right: 500px;
+    padding-right: 400px;
 }
 .failur-title{
     font-weight: 700;
@@ -50,4 +52,32 @@
 li{
     color: #444343;
     font-size: 16px;
+}
+
+/* My plans section work */
+.my-plan-title{
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.my-plan-container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    margin-bottom: 130px;
+}
+.plan-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px; 
+}
+.plan-sub-title{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+.my-plan{
+    text-align: center;
 }
