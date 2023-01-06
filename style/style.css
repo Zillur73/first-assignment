@@ -28,17 +28,14 @@ section{
     display: flex;
     gap: 150px;
     align-items: center;
+    margin-left: 180px;
+    margin-right: 400px;
 
 }
 /* failure img work */
-.failur-img{
- padding-left: 200px;
-}
 
 /* failure text container */
-.failur-text-container{
-    padding-right: 400px;
-}
+
 .failur-title{
     font-weight: 700;
     font-size: 40px;
@@ -64,7 +61,7 @@ li{
 .my-plan-container{
     display: flex;
     justify-content: space-around;
-    padding-left: 100px;
+    margin:0 180px;
     margin-bottom: 130px;
 }
 .plan-title {
@@ -80,4 +77,80 @@ li{
 }
 .my-plan{
     text-align: center;
+}
+/* call now banner work */
+
+.call-now-container{
+    background-image: url("../project-resource/images/gradient2.png"),url("../project-resource/images/watch.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 230px;
+    padding-left: 100px;
+    padding-top: 70px;
+    margin-bottom: 130px;
+}
+.call-now-title{
+
+    font-size: 35px;
+    color: white;
+}
+.call-now-btn{
+  color: red;
+  padding: 20px 35px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/* Footer work */
+
+footer{
+    background-color: black;
+    height: 570px;
+}
+
+.footer-container{
+    color: white;
+    display: flex;
+    padding: 130px 200px;
+    
+}
+.footer-future-description{
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-right: 670px;
+    
+}
+
+.footer-future-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.footer-container input[type="email"]{
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid wheat;
+    color: white;
+    background-color: black;
+}
+.footer-subscribe-btn{
+    color: red;
+  padding: 20px 35px;
+  border-radius: 10px;
+  border: 0;
+  font-weight: 600;
+  font-size: 20px;
+  
 }
