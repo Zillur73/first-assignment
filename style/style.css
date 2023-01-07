@@ -53,7 +53,7 @@ section{
     margin-right: 400px;
 
 }
-/* failure img work */
+
 
 /* failure text container */
 
@@ -70,6 +70,8 @@ section{
 li{
     color: #444343;
     font-size: 16px;
+    list-style: none;
+    gap: 20px;  
 }
 
 /* My plans section work */
